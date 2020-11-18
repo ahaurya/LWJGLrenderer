@@ -1,0 +1,8 @@
+Err001 : void engine.io.Window.create : 
+		if(	GLFW.glfwInit()){
+			System.err.println("Err001");
+		}
+Err002 : void engine.io.Window.create : 
+		if (window == 0) {
+			System.err.println("Err002");
+		}
